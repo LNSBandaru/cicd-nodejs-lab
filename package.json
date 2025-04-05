@@ -1,0 +1,33 @@
+{
+  "name": "cicd-nodejs-lab",
+  "version": "1.0.0",
+  "description": "Nodejs Repo to implement github workflows",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LNSBandaru/cicd-nodejs-lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LNSBandaru/cicd-nodejs-lab/issues"
+  },
+  "homepage": "https://github.com/LNSBandaru/cicd-nodejs-lab#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.24.0",
+    "eslint-plugin-jest": "^28.11.0",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
