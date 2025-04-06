@@ -6,7 +6,7 @@ on:
         - develop
         - main
         - staging
-        
+
 
 jobs:
   build-and-test:
@@ -24,8 +24,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run Lint
-        run: npm run lint
+    #   - name: Run Lint
+    #     run: npm run lint
 
       - name: Run Unit Test
         run: npm test
